@@ -18,7 +18,7 @@ package webcp
 
 import (
 	"github.com/GeertJohan/go.rice"
-	"github.com/HouzuoGuo/tiedot/tdlog"
+	"github.com/davidmcclelland/tiedot/tdlog"
 	"html/template"
 	"net/http"
 )

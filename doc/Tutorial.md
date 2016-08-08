@@ -11,7 +11,7 @@ You will need:
 
     mkdir tiedot && cd tiedot
     export GOPATH=`pwd`  # backticks surround pwd
-    go get github.com/HouzuoGuo/tiedot
+    go get github.com/davidmcclelland/tiedot
 
     ./bin/tiedot -mode=httpd -dir=/tmp/MyDatabase -port=8080
 
@@ -125,4 +125,4 @@ Let's gracefully shutdown server:
 
     > curl "http://localhost:8080/shutdown"
 
-[external dependencies]: https://github.com/HouzuoGuo/tiedot/wiki/Dependencies-and-limitations
+[external dependencies]: https://github.com/davidmcclelland/tiedot/wiki/Dependencies-and-limitations

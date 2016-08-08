@@ -3,7 +3,7 @@ package db
 
 import (
 	"fmt"
-	"github.com/HouzuoGuo/tiedot/data"
+	"github.com/davidmcclelland/tiedot/data"
 	"path"
 	"strings"
 )

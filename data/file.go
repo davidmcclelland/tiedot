@@ -2,8 +2,8 @@
 package data
 
 import (
-	"github.com/HouzuoGuo/tiedot/gommap"
-	"github.com/HouzuoGuo/tiedot/tdlog"
+	"github.com/davidmcclelland/tiedot/gommap"
+	"github.com/davidmcclelland/tiedot/tdlog"
 	"os"
 )
 

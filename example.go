@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/HouzuoGuo/tiedot/db"
-	"github.com/HouzuoGuo/tiedot/dberr"
+	"github.com/davidmcclelland/tiedot/db"
+	"github.com/davidmcclelland/tiedot/dberr"
 	"os"
 )
 

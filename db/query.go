@@ -4,8 +4,8 @@ package db
 import (
 	"errors"
 	"fmt"
-	"github.com/HouzuoGuo/tiedot/dberr"
-	"github.com/HouzuoGuo/tiedot/tdlog"
+	"github.com/davidmcclelland/tiedot/dberr"
+	"github.com/davidmcclelland/tiedot/tdlog"
 	"strconv"
 	"strings"
 )

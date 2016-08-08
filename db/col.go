@@ -4,7 +4,7 @@ package db
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/HouzuoGuo/tiedot/data"
+	"github.com/davidmcclelland/tiedot/data"
 	"io/ioutil"
 	"os"
 	"path"

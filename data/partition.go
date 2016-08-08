@@ -6,8 +6,8 @@ The hash table stores the unchanging ID as entry key and the physical document l
 package data
 
 import (
-	"github.com/HouzuoGuo/tiedot/dberr"
-	"github.com/HouzuoGuo/tiedot/tdlog"
+	"github.com/davidmcclelland/tiedot/dberr"
+	"github.com/davidmcclelland/tiedot/tdlog"
 )
 
 // Partition associates a hash table with collection documents, allowing addressing of a document using an unchanging ID.

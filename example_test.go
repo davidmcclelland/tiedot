@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/HouzuoGuo/tiedot/db"
-	"github.com/HouzuoGuo/tiedot/dberr"
+	"github.com/davidmcclelland/tiedot/db"
+	"github.com/davidmcclelland/tiedot/dberr"
 	"os"
 	"strings"
 	"testing"

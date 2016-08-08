@@ -3,11 +3,11 @@ Version:	3.1
 Release:	1%{?dist}
 License:	BSD-2-Clause
 Summary:	A NoSQL document database engine powered by Go
-Url:		https://github.com/HouzuoGuo/%{name}
+Url:		https://github.com/davidmcclelland/%{name}
 # The source URL points to a tiedot release hosted on Github.
 # Before placing the downloaded source into ~/rpmbuild/SOURCES,
 # please remember to rename the archive file into %{version}.tar.gz
-Source:		https://github.com/HouzuoGuo/%{name}/archive/%{version}.tar.gz
+Source:		https://github.com/davidmcclelland/%{name}/archive/%{version}.tar.gz
 Group:		Applications/Databases
 BuildRequires:	go git mercurial
 Requires:		/usr/bin/curl
@@ -23,8 +23,8 @@ tiedot is a document database engine that uses JSON as document notation; it has
 
 %build
 export GOPATH=`pwd`/gopath
-mkdir -p $GOPATH/src/github.com/HouzuoGuo/
-ln -s `pwd` $GOPATH/src/github.com/HouzuoGuo/%{name}
+mkdir -p $GOPATH/src/github.com/davidmcclelland/
+ln -s `pwd` $GOPATH/src/github.com/davidmcclelland/%{name}
 go get -d
 go build -o %{name} .
 

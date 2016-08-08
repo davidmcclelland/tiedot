@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/HouzuoGuo/tiedot/dberr"
+	"github.com/davidmcclelland/tiedot/dberr"
 	"math/rand"
 	"os"
 	"strconv"

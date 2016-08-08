@@ -38,4 +38,4 @@ Upon creating a new database, all collections and indexes are partitioned into `
 Go runtime uses `GOMAXPROCS` to limit number of OS threads available to a Go program, thus it will affect the scalability of tiedot. For best performance, `GOMAXPROCS` should be set to the number of system CPUs. This can be set via tiedot CLI parameter or environment variable `GOMAXPROCS`.
 
 [go.rice]: https://github.com/GeertJohan/go.rice
-[Concurrency and networking]: https://github.com/HouzuoGuo/tiedot/wiki/Concurrency-and-networking
+[Concurrency and networking]: https://github.com/davidmcclelland/tiedot/wiki/Concurrency-and-networking

@@ -3,10 +3,10 @@ package main
 
 import (
 	"flag"
-	"github.com/HouzuoGuo/tiedot/db"
-	"github.com/HouzuoGuo/tiedot/httpapi"
-	"github.com/HouzuoGuo/tiedot/tdlog"
-	"github.com/HouzuoGuo/tiedot/webcp"
+	"github.com/davidmcclelland/tiedot/db"
+	"github.com/davidmcclelland/tiedot/httpapi"
+	"github.com/davidmcclelland/tiedot/tdlog"
+	"github.com/davidmcclelland/tiedot/webcp"
 	"log"
 	"os"
 	"os/signal"
